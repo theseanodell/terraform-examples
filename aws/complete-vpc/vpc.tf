@@ -4,7 +4,7 @@ module "vpc" {
   name = var.vpc-name
   cidr = "10.0.0.0/16"
 
-  azs             = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
+  azs             = ["us-east-2a", "eus-east-2b", "us-east-2ac"]
   private_subnets     = ["20.10.1.0/24", "20.10.2.0/24", "20.10.3.0/24"]
   public_subnets      = ["20.10.11.0/24", "20.10.12.0/24", "20.10.13.0/24"]
   database_subnets    = ["20.10.21.0/24", "20.10.22.0/24", "20.10.23.0/24"]

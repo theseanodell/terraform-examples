@@ -6,8 +6,6 @@ There are public, private, database, ElastiCache, intra (private w/o Internet ac
 
 ## Variables
 
-### Variables
-
 **AWS_ACCESS_KEY_ID**
 **AWS_SECRET_ACCESS_KEY**
 **AWS_DEFAULT_REGION**
